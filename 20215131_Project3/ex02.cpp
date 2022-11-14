@@ -29,7 +29,7 @@ public:
     }
 };
 
-int main() {
+int main_123() {
     String str0{ "abd" };
     String str1{ "cde" };
 
@@ -41,4 +41,6 @@ int main() {
 
     if (str0 >= str1)
         cout << "str0 >= str1" << endl;
+
+    return 0;
 }
